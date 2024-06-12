@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #f4f4f4;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+}
+
+.info h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #ff6f61;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    border-bottom: 2px solid #ff6f61;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.pendidikan, .pengalaman-kerja {
+    margin-bottom: 15px;
+}
+
+.pendidikan h3, .pengalaman-kerja h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #ff6f61;
+}
+
+.pendidikan p, .pengalaman-kerja p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.pengalaman-organisasi {
+    margin-bottom: 15px;
+}
+
+.pengalaman-organisasi h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #ff6f61;
+}
+
+.pengalaman-organisasi p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.kemampuan ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.kemampuan li {
+    background: #ff6f61;
+    color: #fff;
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.kontak p, .kontak a {
+    margin: 5px 0;
+    color: #555;
+}
+
+.kontak a {
+    color: #ff6f61;
+    text-decoration: none;
+}
+
+.kontsk a:hover {
+    text-decoration: underline;
+}
